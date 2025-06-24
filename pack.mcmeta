@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Sprinkle steak with stardust for a filling meal.",
+    "pack_format": 71,
+    "supported_formats": [71, 80]
+  }
+}

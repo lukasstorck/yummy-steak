@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": "minecraft:cooked_beef",
+        "X": "minecraft:nether_star"
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "count": 8,
+        "id": "minecraft:cooked_beef",
+        "components": {
+            "custom_name": {
+                "text": "Filling Steak",
+                "italic": false,
+                "color": "#55ffff"
+            },
+            "lore": [
+                {
+                    "text": "Enchantable for magic resupply",
+                    "italic": false
+                }
+            ],
+            "item_name": {
+                "text": "Filling Steak",
+                "italic": false
+            },
+            "food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true
+            },
+            "consumable": {
+                "consume_seconds": 2.4,
+                "on_consume_effects": [
+                    {
+                        "type": "apply_effects",
+                        "effects": [
+                            {
+                                "id": "saturation",
+                                "duration": 72000,
+                                "show_particles": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            "enchantable": {
+                "value": 1
+            }
+        }
+    }
+}
