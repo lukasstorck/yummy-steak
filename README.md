@@ -1,2 +1,2 @@
 # yummy-steak
-A minecraft datapack: Sprinkle steak with stardust for a filling meal. 
+A minecraft datapack: sprinkle steak with stardust for a filling meal. 
